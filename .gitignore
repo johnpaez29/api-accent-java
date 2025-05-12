@@ -1,0 +1,104 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Gradle (if present)
+.gradle/
+build/
+
+# Logs
+*.log
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+bin/
+tmp/
+
+# IntelliJ
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Local test reports
+test-output/
+surefire-reports/
+jacoco.exec
+
+# Generated files
+generated/
+
+# Node modules (if you're using frontend like Angular in the same repo)
+node_modules/
+dist/
+
+# Misc
+*.swp
